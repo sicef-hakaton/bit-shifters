@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 22, 2014, 7:05:11 PM
+    Author     : Bojan Tanasic
+*/
+
+#user_img{
+    width: 15%;
+    height: 60px;
+    float: left;
+}
+
+#novosti{
+    background: white;/*#D0D0D0*/
+    margin: 1%;
+    display: inline-block;
+    padding: 1%;
+    border: 2px solid #F37022;
+}
+
+#usn_fax{
+    float: left;
+    width: 80%;
+    margin-left: 2%;
+}
+
+#tekst_activity{
+    float: left;
+    width: 70%;
+    margin-left: 17%;
+}
+
+#tags{
+    float: left;
+    width: 82%;
+    margin-left: 17%;
+}
+
+#fajlovi{
+    float: left;
+    width: 82%;
+    margin-left: 17%;    
+}
+
+#fax_prva_str{
+    font-size: 70%;
+}
+
+#tag_sp{
+    background-color: rgba(0, 0, 0, 0.6);
+    float: left;
+    color: white;
+    font-size: 80%;
+    //border-radius: 15%; 
+    padding: 1%;
+    margin: 1%;
+}
+
+#file_sp{
+    background-color: gray;
+    float: left;
+    color: white;
+    font-size: 80%;
+    //border-radius: 15%; 
+    padding: 1%;
+    margin: 1%;
+}
+
+#text_aktivnost_prva_str{
+    font-size: 200%;
+}

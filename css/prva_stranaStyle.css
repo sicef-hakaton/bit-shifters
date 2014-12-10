@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 22, 2014, 5:11:07 PM
+    Author     : Bojan Tanasic
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#prva_str_wrapper{
+/*    position: absolute;*/
+    min-width:1000px;
+/*    min-height:1200px;
+    left:0%;
+    right:0%;*/
+    /*overflow: auto;*/
+/*    width: 80%;
+    margin: 0 10%;*/
+    /*padding: 1%;*/
+}
+
+#prva_strana_header{
+    background-color: #161616;
+    width: 80%;
+    margin: 0 10%;
+    /*padding: 1%;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /*margin-left: 1%;*/
+    /*margin-right: 1%;*/
+    margin-bottom: 1px;
+}
+
+#naslov_prva_str{
+    font-size: 400%;
+    width: 50%;
+    color: #F37022;
+    margin-left: 3%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#log_in_page_main_section{
+    background-color: #4B4B4B;
+    display: inline-block;
+    /*height: 100vh;*/
+    width: 80%;
+    margin: 0 10%;
+}
+
+#boki_part{
+    /*background-color: yellow;*/
+    float: left;
+    margin: 2% 2% 2% 2%;
+    width: 46%;
+}
+
+#luka_part{
+    /*background-color: yellow;*/
+    float: left;
+    margin: 2% 2% 2% 2%;
+    width: 46%;
+}
+
+#moto{
+    /*background-color: yellow;*/
+    color: #F37022;
+    margin-left: 3%;
+}

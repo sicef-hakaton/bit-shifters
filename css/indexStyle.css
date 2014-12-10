@@ -1,0 +1,312 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 22, 2014, 5:04:02 PM
+    Author     : Bojan Tanasic
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    /*overflow: auto;*/
+}
+
+body, html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    min-width:1000px;
+    /*min-height:1000px;*/
+}
+
+#index_wrapper{
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*min-width: 500px;*/
+    /*padding: 1%;*/
+    /*overflow: scroll;*/
+    overflow: auto; 
+    /*overflow-x: auto;*/ 
+    margin: 0%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+}
+
+#log_in_header{
+    background: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    padding: 1%;
+    /*width: 100%;*/
+    color: #F37022;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#naslov{
+    font-size: 400%;
+    margin-left: 2%;
+    margin-top: 2%;
+    color: white;
+}
+
+#log_in_page_main_section{
+    width: 95%;
+    /*height: 50%;*/
+    /*background: red;*/
+    margin-left: 2%;
+    padding: 1%;
+    display: inline-block;
+}
+
+#log_in_picture{
+    padding: 1%;
+}
+
+#index_img{
+    float: left;
+    /*margin: 2% 2% 2% 10%;*/
+    width: 50%;
+    height: 300px;
+    margin: 1%;
+    background-color: white;
+    padding: 2% 1%;
+    border: 2px solid #F37022;
+}
+
+#log_in{
+    float: left;
+    margin: 2% 1% 2% 4%;
+    background: white;
+    width: 35%;
+    /*height: 3%;*/
+    padding: 2%;
+    border: 2px solid #F37022;
+}
+
+#user_name{
+    height: 30px;
+    width: 80%;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    color: gray;
+}
+
+#pass{
+    height: 30px;
+    width: 80%;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    color: gray;
+}
+
+#sbm{
+    height: 35px;
+    width: 35%;
+    background-color: #FF944D;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border: 0;
+}
+
+#create_acc{
+    color: #FF944D;
+}
+
+a{
+    text-decoration: none;
+}
+
+#registration{
+    /*padding: 1%;*/
+    /*background-color: black;*/
+    display: none;
+    margin: 0 0;
+    width: 100%;
+    height: 100vh;
+    /*height: 100%;*/
+/*    position:absolute; 
+    top: 0;
+    bottom: 0;*/
+    /*z-index:5;*/
+    overflow-y: auto; overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+    /*height: 300px;*/
+}
+
+#close{
+    /*float: left;*/
+    /*position: absolute;*/
+    width: 5%;
+    height: 42px;
+    /*border-radius: 50%;*/
+/*    -moz-border-radius: 50% 50% 50% 50%;
+    -webkit-border-radius: 50%;*/
+    border: 0;
+    background-color: dodgerblue;
+    margin: 0 1%;
+    background-image: url(../images/close-md.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#reg_form{
+    position: relative;
+    top: 0%;
+    /*bottom: 0%;*/
+    /*width: 50%;*/
+    margin: 5% 20% 5%;
+    /*height: 600px;*/
+    background-color: white;
+    /*padding: 2% 2% 2% 2%;*/
+    border: 2px solid #F37022;
+}
+
+#user_name_down{
+    margin: 5% 20% 1% 20%;
+    width: 60%;
+    height: 30px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    color: gray;
+}
+
+#pass_down{
+    margin: 0% 20% 1% 20%;
+    width: 60%;
+    height: 30px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    color: gray;
+}
+
+#email_down{
+    margin: 0% 20% 1% 20%;
+    width: 60%;
+    height: 30px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    color: gray;
+}
+
+#fax{
+    margin: 0% 20% 1% 20%;
+    width: 60%;
+    height: 30px;
+    color: gray;
+}
+
+#skype_down{
+    margin: 0% 20% 1% 20%;
+    width: 60%;
+    height: 30px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    color: gray; 
+}
+
+#facebook{
+    margin: 0% 20% 1% 20%;
+    width: 60%;
+    height: 30px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    color: gray;    
+}
+
+#g_plus{
+    margin: 0% 20% 1% 20%;
+    width: 60%;
+    height: 30px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    color: gray;    
+}
+
+#sbm_down{
+    margin: 0 0 5% 20%;
+    width: 25%;
+    height: 42px;
+    background-color: #FF944D;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border: 0;
+}
+
+#email_down_check{
+    margin: 0% 20% 0% 20%;
+    color: red;
+    display: none;
+}
+
+#fax_down_check{
+    margin: 0% 20% 0% 20%;
+    /*display: none;*/
+    color: red;    
+}
+
+#pass_down_check{
+    margin: 0% 20% 0% 20%;
+    /*display: none;*/
+    color: red;
+}
+
+#user_name_down_check{
+    margin: 0% 20% 0% 20%;
+    /*display: none;*/
+    color: red;
+}
+
+#pass_check{
+    margin: 0% 1% 0% 1%;
+    /*display: none;*/
+    color: red;
+}
+
+#user_name_check{
+    margin: 0% 1% 0% 1%;
+    /*display: none;*/
+    color: red;
+}
+
+
+#drzava_check{
+    margin: 0% 20% 0% 20%;
+    color: red;
+    /*display: none;*/
+}
+
+#grad_check{
+    margin: 0% 20% 0% 20%;
+    color: red;
+    /*display: none;*/
+}
+
+#drzava{
+    margin: 0% 20% 1% 20%;
+    width: 60%;
+    height: 30px;
+    color: gray;
+}
+
+#grad{
+    margin: 0% 20% 1% 20%;
+    width: 60%;
+    height: 30px;
+    color: gray;
+}
+
+input[type="file"]{
+    margin: 0% 20% 1% 20%;
+    width: 60%;
+    height: 30px;    
+}
+
+#moto{
+    /*background-color: yellow;*/
+    margin-left: 2%;
+}

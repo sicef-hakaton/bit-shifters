@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 22, 2014, 12:43:08 AM
+    Author     : Luka
+*/
+
+.goalProgress {
+    background: #f7f7f7;
+    padding: 1%;
+    color: #4B4B4B;
+    text-align: left;
+
+}
+div.progressBar {
+
+    color: #000;
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    padding: 1%;	
+    overflow: visible;
+
+}
+span.goalAmount {
+    display: none;
+    text-indent: -99px;
+}
